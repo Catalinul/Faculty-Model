@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1543681115 source:e:\coding\project2\project 2\activity.cpp
+	"Activity.h"
+
+1543681115 e:\coding\project2\project 2\activity.h
+	<string>
+	"Room.h"
+	"Person.h"
+
+1543681071 e:\coding\project2\project 2\room.h
+	<string>
+
+1543679457 e:\coding\project2\project 2\person.h
+	<string>
+	<vector>
+	"Role.h"
+
+1543681115 e:\coding\project2\project 2\role.h
+
+1543680090 source:e:\coding\project2\project 2\role.cpp
+	"Role.h"
+
+1543680539 source:e:\coding\project2\project 2\room.cpp
+	"Room.h"
+
+1543681069 source:e:\coding\project2\project 2\studentrole.cpp
+	"StudentRole.h"
+
+1543681214 e:\coding\project2\project 2\studentrole.h
+	"Role.h"
+
+1543681660 source:e:\coding\project2\project 2\main.cpp
+	<iostream>
+	"Person.h"
+	"Role.h"
+	"Activity.h"
+	"Room.h"
+	"TeacherRole.h"
+	"StudentRole.h"
+
+1543681220 e:\coding\project2\project 2\teacherrole.h
+	"Role.h"
+
+1543681033 source:e:\coding\project2\project 2\teacherrole.cpp
+	"TeacherRole.h"
+
+1543681426 source:e:\coding\project2\project 2\person.cpp
+	"Person.h"
+	<iostream>
+
