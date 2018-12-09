@@ -20,6 +20,8 @@ int main()
 	persons[0]->addRole(new StudentRole());
 	activities.push_back(new Activity(rooms[0], persons[0], "Lab"));
 
+    cout<<persons[0]->getLastName();
+
 
     return 0;
 }

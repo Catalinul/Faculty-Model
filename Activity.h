@@ -9,6 +9,8 @@ class Activity
 {
 public:
 	Activity(Room*, Person*, std::string);
+	Room* getRoom();
+	Person* getOwner();
 
 private:
 	Room* mLocation;

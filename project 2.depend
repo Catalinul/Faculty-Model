@@ -48,3 +48,73 @@
 	"Person.h"
 	<iostream>
 
+1544270049 source:e:\coding\project-2\main.cpp
+	<iostream>
+	"Person.h"
+	"Role.h"
+	"Activity.h"
+	"Room.h"
+	"TeacherRole.h"
+	"StudentRole.h"
+
+1544270048 e:\coding\project-2\person.h
+	<string>
+	<vector>
+	"Role.h"
+
+1544270048 e:\coding\project-2\role.h
+
+1544270547 e:\coding\project-2\activity.h
+	<string>
+	"Room.h"
+	"Person.h"
+
+1544273210 e:\coding\project-2\room.h
+	<string>
+
+1544278276 e:\coding\project-2\teacherrole.h
+	"Role.h"
+
+1544270048 e:\coding\project-2\studentrole.h
+	"Role.h"
+
+1544270048 source:e:\coding\project-2\person.cpp
+	"Person.h"
+	<iostream>
+
+1544270048 source:e:\coding\project-2\role.cpp
+	"Role.h"
+
+1544280010 source:e:\coding\project-2\room.cpp
+	"Room.h"
+
+1544270048 source:e:\coding\project-2\studentrole.cpp
+	"StudentRole.h"
+
+1543322825 source:e:\coding\project-2\teacherrole.cpp
+	"pch.h"
+	"TeacherRole.hpp"
+
+1544270418 source:e:\coding\project-2\activity.cpp
+	"Activity.h"
+
+1544278265 source:e:\coding\project-2\activityrepository.cpp
+	"ActivityRepository.h"
+
+1544278265 e:\coding\project-2\activityrepository.h
+	"Activity.h"
+
+1544279374 source:e:\coding\project-2\roomrepository.cpp
+	"RoomRepository.h"
+
+1544279517 e:\coding\project-2\roomrepository.h
+	"Room.h"
+	<vector>
+
+1544279526 source:e:\coding\project-2\personrepository.cpp
+	"PersonRepository.h"
+
+1544278671 e:\coding\project-2\personrepository.h
+	<vector>
+	"Person.h"
+
