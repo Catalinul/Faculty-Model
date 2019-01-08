@@ -1,12 +1,13 @@
 #include "Person.h"
 #include <iostream>
 
-Person::Person(std::string CNP, std::string FirstName, std::string LastName, std::string Email = "")
-	:mEmail(Email)
+Person::Person(std::vector<Role*> Roles, std::string CNP, std::string FirstName, std::string LastName, std::string Email = "")
+    :mEmail(Email)
 {
-	mCNP = CNP;
-	mLastName = LastName;
-	mFirstName = FirstName;
+    mRoles = Roles;
+    mCNP = CNP;
+    mLastName = LastName;
+    mFirstName = FirstName;
 }
 
 void Person::setCNP(std::string CNP)
@@ -54,14 +55,14 @@ void Person::addRole(Role *role)
 	mRoles.push_back(role);
 }
 
-std::istream& operator>>(std::istream& stream, Person& ob)
+std::istream& operator>>(std::istream& read, Person& obj)
 {
-	stream >> ob.mCNP >> ob.mFirstName >> ob.mLastName >> ob.mEmail;
-	return stream;
+	read >> obj.mCNP >> obj.mFirstName >> obj.mLastName >> obj.mEmail;
+	return read;
 }
 
-std::ostream& operator<<(std::ostream& stream, const Person& ob)
+std::ostream& operator<<(std::ostream& write, const Person& obj)
 {
-	stream << ob.mCNP << '\n' << ob.mFirstName << '\n' << ob.mLastName << '\n' << ob.mEmail << '\n';
-	return stream;
+	write << obj.mCNP << '\n' << obj.mFirstName << '\n' << obj.mLastName << '\n' << obj.mEmail << '\n';
+	return write;
 }

@@ -2,5 +2,4 @@
 
 Role::Role(RoleType type)
 	:mType(type)
-{
-}
+{}

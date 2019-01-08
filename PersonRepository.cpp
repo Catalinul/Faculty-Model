@@ -17,14 +17,4 @@ Person * PersonRepository::findByCNP(std::string cnp)
 	return NULL;
 }
 
-void PersonRepository::add(Person *p)
-{
-	mPersons.push_back(p);
-}
 
-void PersonRepository::remove(std::string cnp)
-{
-	for (unsigned int i = 0; i < mPersons.size(); i++)
-		if (mPersons[i]->getCNP() == cnp)
-			mPersons.erase(mPersons.begin() + i);
-}

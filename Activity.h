@@ -8,9 +8,14 @@
 class Activity
 {
 public:
+    Activity(){};
 	Activity(Room*, Person*, std::string);
-	Room* getRoom();
-	Person* getOwner();
+	Room* getRoom() const;
+	Person* getOwner() const;
+    std::string getDescription() const;
+
+    friend std::istream& operator >> (std::istream &read, Activity& obj);
+    friend std::ostream& operator << (std::ostream &write, const Activity& obj);
 
 private:
 	Room* mLocation;

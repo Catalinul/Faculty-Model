@@ -36,8 +36,18 @@
 		<Unit filename="Activity.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="ActivityRepository.cpp" />
+		<Unit filename="ActivityRepository.h" />
+		<Unit filename="AdministrativeRole.cpp" />
+		<Unit filename="AdministrativeRole.h" />
+		<Unit filename="Discipline.cpp" />
+		<Unit filename="Discipline.h" />
 		<Unit filename="Person.cpp" />
 		<Unit filename="Person.h" />
+		<Unit filename="PersonRepository.cpp" />
+		<Unit filename="PersonRepository.h" />
+		<Unit filename="Repo.cpp" />
+		<Unit filename="Repo.h" />
 		<Unit filename="Role.cpp" />
 		<Unit filename="Role.h">
 			<Option target="&lt;{~None~}&gt;" />
@@ -46,6 +56,8 @@
 		<Unit filename="Room.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="RoomRepository.cpp" />
+		<Unit filename="RoomRepository.h" />
 		<Unit filename="StudentRole.cpp" />
 		<Unit filename="StudentRole.h">
 			<Option target="&lt;{~None~}&gt;" />

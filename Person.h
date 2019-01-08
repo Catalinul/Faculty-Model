@@ -9,17 +9,17 @@ class Person
 {
 public:
 	Person() {};
-	Person(std::string, std::string, std::string, std::string );
-	void setCNP(std::string);
+	Person(std::vector <Role*> Roles, std::string CNP, std::string FirstName, std::string LastName, std::string Email);
+	void setCNP(std::string CNP);
 	std::string getCNP() const;
-	void setFirstName(std::string);
+	void setFirstName(std::string FirstName);
 	std::string getFirstName() const;
-	void setLastName(std::string);
+	void setLastName(std::string LastName);
 	std::string getLastName() const;
-	void setEmail(std::string);
+	void setEmail(std::string Email);
 	std::string getEmail() const;
-	friend std::istream& operator >> (std::istream& stream, Person& ob);
-	friend std::ostream& operator << (std::ostream& stream, const Person& ob);
+	friend std::istream& operator >> (std::istream& read, Person& obj);
+	friend std::ostream& operator << (std::ostream& write, const Person& obj);
 	void addRole(Role*);
 
 

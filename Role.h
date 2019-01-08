@@ -5,7 +5,9 @@ class Role {
 public:
 	enum RoleType {
 		STUDENT_ROLE,
-		TEACHER_ROLE
+		TEACHER_ROLE,
+		ADMINISTRATIVE_ROLE,
+		ACTIVITY_ROLE
 	};
 	Role(RoleType type);
 

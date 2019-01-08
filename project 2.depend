@@ -48,7 +48,7 @@
 	"Person.h"
 	<iostream>
 
-1544270049 source:e:\coding\project-2\main.cpp
+1544373371 source:e:\coding\project-2\main.cpp
 	<iostream>
 	"Person.h"
 	"Role.h"
@@ -57,32 +57,32 @@
 	"TeacherRole.h"
 	"StudentRole.h"
 
-1544270048 e:\coding\project-2\person.h
+1546931053 e:\coding\project-2\person.h
 	<string>
 	<vector>
 	"Role.h"
 
-1544270048 e:\coding\project-2\role.h
+1544377515 e:\coding\project-2\role.h
 
-1544270547 e:\coding\project-2\activity.h
+1546928655 e:\coding\project-2\activity.h
 	<string>
 	"Room.h"
 	"Person.h"
 
-1544273210 e:\coding\project-2\room.h
+1546929273 e:\coding\project-2\room.h
 	<string>
 
-1544278276 e:\coding\project-2\teacherrole.h
+1546933202 e:\coding\project-2\teacherrole.h
 	"Role.h"
 
-1544270048 e:\coding\project-2\studentrole.h
+1546930209 e:\coding\project-2\studentrole.h
 	"Role.h"
 
-1544270048 source:e:\coding\project-2\person.cpp
+1546931051 source:e:\coding\project-2\person.cpp
 	"Person.h"
 	<iostream>
 
-1544270048 source:e:\coding\project-2\role.cpp
+1546929664 source:e:\coding\project-2\role.cpp
 	"Role.h"
 
 1544280010 source:e:\coding\project-2\room.cpp
@@ -117,4 +117,12 @@
 1544278671 e:\coding\project-2\personrepository.h
 	<vector>
 	"Person.h"
+
+1546931563 source:e:\coding\project-2\discipline.cpp
+	"Discipline.h"
+
+1546931565 e:\coding\project-2\discipline.h
+	<vector>
+	<string>
+	"Activity.h"
 

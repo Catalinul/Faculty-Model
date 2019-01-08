@@ -16,16 +16,10 @@ Activity* ActivityRepository::findByLocation(Room* r)
 	return NULL;
 }
 
-void ActivityRepository::add(Activity* a)
+Activity* ActivityRepository::findByDescription(std::string desc)
 {
-	mActivities.push_back(a);
+    for (unsigned int i = 0; i < mEntities.size(); i++)
+        if (mEntities[i]->getDescription() == desc)
+            return mEntities[i];
+    return NULL;
 }
-
-void ActivityRepository::remove(Person* p, Room* r)
-{
-
-	for (unsigned int i = 0; i < mActivities.size(); i++)
-		if (mActivities[i]->getOwner() == p && mActivities[i]->getRoom() == r)
-			mActivities.erase(mActivities.begin() + i);
-}
-
